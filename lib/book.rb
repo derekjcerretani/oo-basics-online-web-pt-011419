@@ -1,6 +1,6 @@
 class Book
 
-  attr_accessor :genre, :turn_page
+  attr_accessor :genre
 
   def initialize(title)
     @title = title
@@ -24,6 +24,9 @@ class Book
 
   def page_count
     @page_count
+  end
+
+  def turn_page
   end
 
 end
